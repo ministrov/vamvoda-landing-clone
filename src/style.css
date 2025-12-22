@@ -104,10 +104,6 @@ textarea {
 
 /* Header */
 
-/* .page__header {
-  margin-top: 0;
-} */
-
 .header {
   position: absolute;
   top: 0;
@@ -168,8 +164,16 @@ textarea {
   color: #ffffff;
 }
 
+.main-nav--second .main-nav__link:hover {
+  color: #0B54A0;
+}
+
 .main-nav__link:hover::after {
   width: 100%;
+}
+
+.main-nav--second .main-nav__link:hover::after {
+  display: none;
 }
 
 .phone-call {
@@ -226,3 +230,10 @@ textarea {
   color: #FFFFFF;
   background-color: #0B4888;
 }
+
+/* Content */
+.page__main {
+  min-height: 100vh;
+}
+
+/* Footer */
