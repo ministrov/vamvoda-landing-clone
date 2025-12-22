@@ -101,3 +101,128 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Header */
+
+/* .page__header {
+  margin-top: 0;
+} */
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 38px;
+  z-index: 10;
+  background-color: purple;
+  border: none;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__phone-call.phone-call--mobile {
+  display: none;
+}
+
+.main-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.main-nav__item {
+  display: flex;
+}
+
+.main-nav__link {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #C0D0DF;
+}
+
+.main-nav__link::after {
+  content: "";
+  position: absolute;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #19DFC9;
+  transition: width .5s ease-in-out;
+}
+
+.main-nav__link:hover {
+  color: #ffffff;
+}
+
+.main-nav__link:hover::after {
+  width: 100%;
+}
+
+.phone-call {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.phone-call__tel {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.phone-call__tel:hover {
+  color: #19DFC9;
+}
+
+.phone-call__icon {
+  width: 47px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 900px;
+  background: rgba(240, 243, 246, 0.07);
+  transition: .3s;
+}
+
+.phone-call__tel:hover .phone-call__icon {
+  background-color: rgba(25, 223, 201, 0.2);
+}
+
+.phone-call__btn {
+  padding: 15px 20px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 16px;
+  color: #0B54A0;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  border-radius: 900px;
+}
+
+.phone-call__btn:hover {
+  color: #FFFFFF;
+  background-color: #0B4888;
+}
