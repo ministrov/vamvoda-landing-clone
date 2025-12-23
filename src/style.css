@@ -103,12 +103,6 @@ textarea {
   padding-top: 38px;
 }
 
-.logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .header__row {
   display: flex;
   align-items: center;
@@ -117,6 +111,17 @@ textarea {
 
 .header__burger {
   display: none;
+}
+
+.header__logo {
+  width: 128px;
+  height: 50px;
+}
+
+.logo__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .header__phone-call.phone-call--mobile {
@@ -280,6 +285,7 @@ textarea {
 .page__hero {
   position: relative;
   z-index: 1;
+  min-height: 1112px;
 }
 
 .hero {
@@ -288,7 +294,7 @@ textarea {
   color: #FFFFFF;
 }
 
-.hero__bg.hero__bg--desktop {
+.hero__bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -400,21 +406,61 @@ textarea {
 
 /* .features__img {} */
 
-/* .timer {}
+.hero__timer {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+  margin-top: 37px;
+}
 
-.rotation {}
+.timer {
+  padding: 30px 16px 25px 26px;
+  box-shadow: 109px 206px 65px 0 rgba(0, 0, 0, 0.00), 70px 132px 60px 0 rgba(0, 0, 0, 0.01), 39px 74px 50px 0 rgba(0, 0, 0, 0.03), 17px 33px 37px 0 rgba(0, 0, 0, 0.04), 4px 8px 20px 0 rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(14.5px);
+  border-radius: 27px;
+  background: linear-gradient(116deg, rgba(73, 33, 127, 0.59) -0.98%, rgba(33, 37, 126, 0.59) 95.36%);
+}
 
-.timer__countdown {}
+.timer>span {
+  font-family: "Nunito", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
 
-.timer__days {}
+.timer__countdown {
+  position: absolute;
+  top: -19px;
+  left: 24px;
+  padding: 12px 14px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 100%;
+  border-radius: 900px;
+  background: linear-gradient(97deg, #2685F4 -3.13%, #ED43C0 41.03%, #FF2567 79.82%, #FF3E07 121%);
+}
 
-.timer__hours {}
+/* .timer__days {} */
 
+.timer__num {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 3px;
+}
 
+.timer__day {
+  margin-top: 2px;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  opacity: 0.3;
+}
 
-.timer__num {}
-
-.timer__day {}
+/* .timer__hours {} */
 
 
 /* Footer */
@@ -435,7 +481,7 @@ textarea {
   padding-bottom: 30px;
 }
 
-.footer__logo.logo {
+.footer__logo {
   width: 128px;
   height: 50px;
   flex-shrink: 0;
