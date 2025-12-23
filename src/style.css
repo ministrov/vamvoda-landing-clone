@@ -289,60 +289,77 @@ textarea {
 
 /* Hero */
 
-/* .page__hero.hero {
+.page__hero.hero {
+  position: relative;
+  z-index: 1;
+  padding-top: 221px;
+  padding-bottom: 232px;
+  color: #FFFFFF;
 }
+
 .hero__bg.hero__bg--desktop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
+
 .hero__bg.hero__bg--tablet {
+  display: none;
 }
+
 .hero__bg.hero__bg--mobile {
+  display: none;
 }
-.hero__bottom {
-}
-.hero__tag.tag {
-}
-.hero__wrapper {
-}
-.hero__order.order {
-}
-.tag__text {
-}
-.hero__promo.promo {
-}
-.hero__timer.timer {
-}
-.order__icon {
-}
-.order__action {
-}
-.promo__heading {
-}
-.promo__text {
-}
-.hero__features.features {
-}
-.timer {
-}
-.rotation {
-}
-.features__item {
-}
-.timer__countdown {
-}
-.timer__days {
-}
-.timer__hours {
-}
-.features__icon {
-}
-.features__text {
-}
-.timer__num {
-}
-.timer__day {
-}
-.features__img {
-} */
+
+/* .hero__bottom {}
+
+.hero__tag.tag {}
+
+.hero__wrapper {}
+
+.hero__order.order {}
+
+.tag__text {}
+
+.hero__promo.promo {}
+
+.hero__timer.timer {}
+
+.order__icon {}
+
+.order__action {}
+
+.promo__heading {}
+
+.promo__text {}
+
+.hero__features.features {}
+
+.timer {}
+
+.rotation {}
+
+.features__item {}
+
+.timer__countdown {}
+
+.timer__days {}
+
+.timer__hours {}
+
+.features__icon {}
+
+.features__text {}
+
+.timer__num {}
+
+.timer__day {}
+
+.features__img {} */
 
 
 /* Footer */
