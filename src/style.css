@@ -883,6 +883,65 @@ textarea {
   color: #0E655B;
 }
 
+/* Advantages section */
+
+.advantages {
+  position: relative;
+  padding-top: 222px;
+  padding-bottom: 90px;
+}
+
+.advantages__title {
+  font-size: 51px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 56px;
+  letter-spacing: 0.9px;
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 24px;
+  margin-top: 40px;
+}
+
+.advantages__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 24px;
+  background: #FFF;
+  border: 1px solid #F2F4FA;
+  border-radius: 20px;
+}
+
+.advantages__item-title {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: -0.5px;
+  color: #40444B;
+}
+
+.advantage__item-text {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 162%;
+  letter-spacing: -0.28px;
+  color: #787C81;
+}
+
+.advantages__item-image {
+  width: 60px;
+  height: auto;
+  flex-shrink: 0;
+}
+
 /* Footer */
 
 .footer__top {
