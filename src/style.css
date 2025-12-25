@@ -570,6 +570,34 @@ textarea {
   background-color: #E7EDF3;
 }
 
+.bottle-set::before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 50%;
+  transform: translate(-50%, -99%);
+  width: 100%;
+  height: 172px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzIiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgNDJDODkzIC0xMjguNTUxIDcxNiA0MjEuOTQ5IDAgMFYxNzEuNDQ5SDE5MjBMMTkyMCA0MloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xOTIwIDEwMkM5OTQgLTEyOC41IDY1OS4zODQgMzU5LjIxNyAwIDQwLjk5OThWMTcxLjQ0OUgxOTIwTDE5MjAgMTAyWiIgZmlsbD0iI0U3RURGMyIvPgo8L3N2Zz4K);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+.bottle-set::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 99%);
+  width: 100%;
+  height: 172px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzIiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgMTI5Ljg5OEM4OTMgMzAwLjQ0OSA3MTYgLTI1MC4wNTEgMCAxNzEuODk4VjAuNDQ5MjE5SDE5MjBMMTkyMCAxMjkuODk4WiIgZmlsbD0iI0Y0RjlGRiIvPgo8cGF0aCBkPSJNMTkyMCA2OS44OTg1Qzk5NCAzMDAuMzk4IDY1OS4zODQgLTE4Ny4zMTkgMCAxMzAuODk5VjAuNDQ5MjE5SDE5MjBMMTkyMCA2OS44OTg1WiIgZmlsbD0iI0U3RURGMyIvPgo8L3N2Zz4K);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
 .bottle-set__wrapper {
   display: flex;
   align-items: flex-start;
@@ -708,7 +736,6 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 15px;
   padding: 20px;
   background-color: #FFFFFF;
 }
@@ -740,6 +767,10 @@ textarea {
   border-radius: 900px;
 }
 
+.bottle-set__btn:hover {
+  background-color: #00a8eb;
+}
+
 .bottle-set__btn-icon-box {
   position: relative;
   z-index: 1;
@@ -762,6 +793,95 @@ textarea {
   color: #FFFFFF;
 }
 
+.bottle-set__box::after {
+  content: '';
+  position: absolute;
+  top: 41px;
+  right: -22px;
+  width: 14px;
+  height: 14px;
+  background-color: #FFFFFF;
+  transform: rotate(45deg);
+  transform-origin: 50%;
+}
+
+.bottle-set__box-desc {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 139%;
+  text-align: center;
+  color: #40444B;
+}
+
+.bottle-set__block-top {
+  padding: 14px;
+  border-radius: 13px;
+  border: 1px dashed #CDE3F9;
+}
+
+.bottle-set__block-price-heading {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 110%;
+  color: #626365;
+}
+
+.bottle-set__block-price-sum {
+  margin-top: 5px;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 1px;
+  color: #3E4043;
+}
+
+.bottle-set__block-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.bottle-set__block-item-img {
+  width: 34px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.bottle-set__block-content-slogan {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+  color: #40444B;
+}
+
+.bottle-set__block-content-text {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #808992;
+}
+
+.bottle-set__order-btn {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  transition: .3s;
+  border-radius: 20px;
+  background: #0B54A0;
+}
+
+.bottle-set__order-btn:hover {
+  background-color: #19DFC9;
+  color: #0E655B;
+}
 
 /* Footer */
 
