@@ -989,6 +989,74 @@ textarea {
   border-color: #19DFC9;
 }
 
+/* Brands section */
+
+.brands {
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 262px;
+}
+
+.brands__title {
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+
+.brands__text {
+  max-width: 1004px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #818B9A;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162%;
+}
+
+.brands__slider {
+  margin-top: 60px;
+}
+
+.brands-slider {
+  overflow: visible;
+  display: flex;
+  gap: 20px;
+}
+
+.brands-slider__slide {
+  padding: 22px;
+  padding-top: 0;
+  background-color: #FFFFFF;
+  transition: .3s;
+  border-radius: 20px;
+  box-shadow: 0 0 25px 0 rgba(41, 59, 76, 0.07);
+  border: 3px solid #FFFFFF;
+}
+
+.brands-slider__slide-top {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #E7EDF3;
+  margin-top: -24px;
+  transition: .3s;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+}
+
+.brands-slider__slide-top-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
 /* Footer */
 
 .footer__top {
