@@ -1445,7 +1445,6 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  flex-grow: 1;
   padding: 25px;
   background: #FFF;
   border-radius: 20px;
@@ -1473,6 +1472,29 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: right;
+}
+
+.gift-block__gift-box {
+  max-width: 171px;
+}
+
+.gift-box__heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: -0.5px;
+  color: #40444B;
+}
+
+.gift-box__text {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+  color: #8B8F96;
 }
 
 /* Footer */
