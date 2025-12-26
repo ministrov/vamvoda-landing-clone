@@ -1394,6 +1394,33 @@ textarea {
   color: #FFFFFF;
 }
 
+/* Gift section */
+
+.gift {
+  position: relative;
+  z-index: 1;
+  padding-top: 91px;
+  padding-bottom: 400px;
+}
+
+.gift__bg-desktop {
+  position: absolute;
+  z-index: -1;
+  top: -156px;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.gift__bg-tablet {
+  display: none;
+}
+
+.gift__bg-mobile {
+  display: none;
+}
+
 /* Footer */
 
 .footer__top {
