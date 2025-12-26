@@ -1662,6 +1662,148 @@ textarea {
   color: #19DFC9;
 }
 
+/* Reviews section */
+
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.reviews__title {
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+
+.reviews__text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  max-width: 1052px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162%;
+  text-align: center;
+  color: #818B9A;
+}
+
+.reviews-slider__wrapper {
+  margin-top: 40px;
+  width: calc(100% + 268px);
+  margin-left: -134px;
+}
+
+.review {
+  padding: 23px;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid #F2F4FA;
+  background: #FFFFFF;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.review-author__image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E9F3F9;
+}
+
+.review-author__info-name {
+  font-family: "Nunito", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  color: #40444B;
+}
+
+.review-author__info-date {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 120%;
+  color: #818B9A;
+}
+
+.review__text {
+  margin-top: 13px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 156%;
+  color: #575A60;
+}
+
+.reviews-slider__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 40px;
+}
+
+.navigation__button {
+  position: static;
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  background-color: #E7EDF3;
+  border-radius: 15px;
+  opacity: 1;
+  transition: .3s;
+}
+
+.navigation__button:hover {
+  background-color: #0B54A0;
+}
+
+.navigation__button:hover svg path {
+  stroke: #ffffff;
+}
+
+.pagination {
+  position: static;
+  width: auto !important;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.swiper-pagination-bullet {
+  margin: 0 !important;
+  width: 7px;
+  height: 7px;
+  border-radius: 900px;
+  background-color: #FFFFFF;
+  border: 2px solid #98A2A7;
+  opacity: 0.3;
+  transition: .3s;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-color: #0C5EAB;
+  opacity: 1;
+}
+
 /* Footer */
 
 .footer__top {
