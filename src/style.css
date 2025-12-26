@@ -1208,18 +1208,17 @@ textarea {
 
 .levels::before {
   content: '';
-  z-index: -2;
   position: absolute;
+  z-index: -2;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -99%);
   width: 100%;
   height: 172px;
-  background-color: rebeccapurple;
-  /* background-image: url("../public/img/levels-top.svg");
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzMiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgNDIuODk4NEM4OTMgLTEyNy42NTIgNzE2IDQyMi44NDggMCAwLjg5ODQzOFYxNzIuMzQ4SDE5MjBMMTkyMCA0Mi44OTg0WiIgZmlsbD0iI0Y0RjlGRiIvPgo8cGF0aCBkPSJNMTkyMCAxMDIuODk4Qzk5NCAtMTI3LjYwMiA2NTkuMzg0IDM2MC4xMTUgMCA0MS44OTgzVjE3Mi4zNDhIMTkyMEwxOTIwIDEwMi44OThaIiBmaWxsPSIjRTdFREYzIi8+Cjwvc3ZnPgo=);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 50% 0; */
+  background-position: 50% 0;
+  transform: translate(-50%, -99%);
 }
 
 .levels__title {
@@ -1807,6 +1806,45 @@ textarea {
   border-color: #0C5EAB;
   opacity: 1;
 }
+
+/* Supersales section */
+
+.supersales {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  border-top: 1px solid #F2F4FA;
+}
+
+.supersales__wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.supersales__row {
+  width: 355px;
+  flex-shrink: 0;
+}
+
+.supersales__titles {
+  font-size: 51px;
+  font-weight: 800;
+  line-height: 56px;
+  text-align: left;
+  letter-spacing: 0.9px;
+  color: #3E4043;
+}
+
+.supersales__text {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162%;
+  color: #818B9A;
+}
+
+
+/* .superaction {} */
 
 /* Footer */
 
