@@ -852,6 +852,7 @@ textarea {
 }
 
 .bottle-set__btn-text {
+  display: inline-block;
   max-width: 183px;
   font-size: 18px;
   font-weight: 600;
