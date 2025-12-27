@@ -2276,3 +2276,19 @@ textarea {
   color: #5B5D61;
   border-bottom: 1px solid rgba(91, 93, 97, 0.35);
 }
+
+@media (max-width: 1448px) {
+  .logo {
+    width: 112px;
+    height: 44px;
+  }
+
+  .main-nav__list {
+    gap: 20px;
+  }
+
+  .phone-call__tel {
+    font-size: 0;
+    gap: 0;
+  }
+}
