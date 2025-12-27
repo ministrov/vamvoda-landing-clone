@@ -13,7 +13,6 @@ html {
 
 body {
   min-width: 320px;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -344,7 +343,6 @@ textarea {
 
 .promo__heading {
   max-width: 629px;
-  margin-bottom: 20px;
   font-size: 76px;
   font-weight: 800;
   line-height: 122%;
@@ -383,10 +381,6 @@ textarea {
   line-height: 169%;
   letter-spacing: 0.3px;
   color: #90BDEA;
-}
-
-.hero__features {
-  margin-bottom: 110px;
 }
 
 .features {
@@ -501,9 +495,11 @@ textarea {
 }
 
 .hero__bottom {
+  max-width: 1236px;
+  margin-top: 47px;
   display: flex;
-  align-items: center;
-  gap: 15px;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .order {
@@ -2035,6 +2031,10 @@ textarea {
 }
 
 .preorder__image--small {
+  display: none;
+}
+
+.about-pagination {
   display: none;
 }
 
