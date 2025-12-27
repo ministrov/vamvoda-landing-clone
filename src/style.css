@@ -442,14 +442,14 @@ textarea {
 
 .hero__timer {
   position: relative;
-  display: flex;
-  gap: 5px;
-  align-items: flex-start;
   margin-top: 37px;
   max-height: 117px;
 }
 
 .timer {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
   padding: 30px 16px 25px 26px;
   box-shadow: 109px 206px 65px 0 rgba(0, 0, 0, 0.00), 70px 132px 60px 0 rgba(0, 0, 0, 0.01), 39px 74px 50px 0 rgba(0, 0, 0, 0.03), 17px 33px 37px 0 rgba(0, 0, 0, 0.04), 4px 8px 20px 0 rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(14.5px);
@@ -2060,6 +2060,7 @@ textarea {
   z-index: 1;
   padding-top: 125px;
   padding-bottom: 64px;
+  color: #FFFFFF;
 }
 
 .preorder__image {
@@ -2075,6 +2076,17 @@ textarea {
 
 .preorder__image--small {
   display: none;
+}
+
+.preorder__timer {
+  max-width: 311px;
+}
+
+.preorder__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .about-pagination {
