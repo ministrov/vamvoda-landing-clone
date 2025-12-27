@@ -337,8 +337,13 @@ textarea {
   align-items: flex-start;
 }
 
+.hero__promo {
+  position: relative;
+  z-index: 1;
+}
+
 .promo__heading {
-  max-width: 100%;
+  max-width: 629px;
   margin-bottom: 20px;
   font-size: 76px;
   font-weight: 800;
@@ -347,8 +352,31 @@ textarea {
   color: #FFFFFF;
 }
 
+.promo__label {
+  position: absolute;
+  top: 170px;
+  left: -6px;
+  z-index: -1;
+  transform: rotate(-4.867deg);
+}
+
+.label__text {
+  position: absolute;
+  right: 23px;
+  top: 9px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 103%;
+  letter-spacing: 1px;
+}
+
+.label__icon-mobile {
+  display: none;
+}
+
 .promo__text {
   max-width: 572px;
+  margin-top: 83px;
   margin-bottom: 34px;
   font-size: 21px;
   font-weight: 500;
