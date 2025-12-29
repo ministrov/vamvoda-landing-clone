@@ -2331,11 +2331,139 @@ textarea {
   }
 
   .phone-call__tel {
-    font-size: unset;
-    gap: 15px;
+    font-size: 15px;
+    gap: 7px;
   }
 
   .phone-call__btn {
     display: none;
   }
+
+  /* Hero section */
+
+  .page__hero {
+    min-height: auto;
+  }
+
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 86px;
+  }
+
+  .hero__wrapper {
+    gap: 28px;
+  }
+
+  .hero__bottom {
+    max-width: 655px;
+    margin-top: 28px;
+    align-items: flex-start;
+  }
+
+  .hero__tag {
+    gap: 3px;
+  }
+
+  .hero__bg.hero__bg--desktop {
+    display: none;
+  }
+
+  .hero__bg.hero__bg--tablet {
+    display: inline-block;
+  }
+
+
+
+  .tag {
+    padding: 7px 8px;
+    border-radius: 11px;
+  }
+
+  .tag__text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .promo__heading {
+    max-width: 332px;
+    margin-top: 6px;
+    font-size: 37px;
+    line-height: 45px;
+    letter-spacing: -0.5px;
+  }
+
+  .promo__label {
+    top: 88px;
+    max-height: 60px;
+  }
+
+  .label__icon {
+    width: 191px;
+    height: auto;
+  }
+
+  .label__text {
+    right: 9px;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+  }
+
+  .promo__text {
+    max-width: 332px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+  }
+
+  .hero__features {
+    margin-top: 20px;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  /* .features__icon {
+
+  } */
+
+  .features__text {
+    max-width: 225px;
+  }
+
+  .hero__order {
+    margin-top: 7px;
+  }
+
+  .order {
+    gap: 14px;
+  }
+
+  .order__icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  .order__icon::after {
+    width: 49px;
+    height: 49px;
+    top: -9px;
+    left: -7px;
+  }
+
+  .order__rotation {
+    width: 35px;
+  }
+
+  .oreder__cart-icon {
+    width: 20px;
+  }
+
+  .order__action {
+    max-width: 100px;
+    font-size: 22px;
+  }
+
 }
