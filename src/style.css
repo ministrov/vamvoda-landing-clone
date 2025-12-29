@@ -2679,4 +2679,97 @@ textarea {
   .advantages__item-text {
     font-size: 14px;
   }
+
+  /* Brands section */
+
+  .brands {
+    padding-top: 40px;
+    padding-bottom: 109px;
+  }
+
+  .brands__title {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+  }
+
+  .brands__text {
+    margin-top: 11px;
+    font-size: 14px;
+  }
+
+  .brands-slider {
+    gap: 14px;
+    width: 114.844vw;
+    margin-left: -10.422vw;
+    margin-top: 20px;
+  }
+
+  .brands-slider__slide {
+    padding: 11px;
+  }
+
+  .brands-slider__slide-top {
+    width: 100px;
+    height: 100px;
+  }
+
+  .slide-info__top-text,
+  .slide-info__text,
+  .brands-slider__text {
+    font-size: 14px;
+  }
+
+  .brands__quality {
+    margin-top: 20px;
+  }
+
+  .brands__quality-title {
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0
+  }
+
+  .brands__quality-list {
+    gap: 18px;
+    margin-top: 15px;
+  }
+
+  .brands__quality-item {
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .brands__quality-item-left {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brands__quality-item-left::before {
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+  }
+
+  .brands__quality-item-left::after {
+    width: 11px;
+    height: 13px;
+    left: 1px;
+    top: 3px;
+  }
+
+  .brands__quality-item-img {
+    width: 22px;
+  }
+
+  .brands__quality-text {
+    font-size: 16px;
+    line-height: 133%;
+  }
+
+  .brands__quality-slogan {
+    font-size: 13px;
+    letter-spacing: -0.26px;
+  }
 }
