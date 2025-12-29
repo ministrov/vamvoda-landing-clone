@@ -1,3 +1,13 @@
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+window.addEventListener('resize', () => {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
+console.log(vh);
+
 var reviewsSlider = new Swiper('.reviews-slider', {
   slidesPerView: 4,
   spaceBetween: 20,
