@@ -2996,4 +2996,60 @@ textarea {
     margin-top: 6px;
     font-size: 14px;
   }
+
+  /* Supersales section */
+
+  .supersales {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .supersales__wrapper {
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+  }
+
+  .supersales__row {
+    width: 100%;
+  }
+
+  .supersales__titles {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  .supersales__text {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .supersales__row-two {
+    flex-direction: row-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .supersales__superaction {
+    width: 283px;
+  }
+
+  .superaction {
+    padding: 41px 20px 21px;
+    text-align: center;
+  }
+
+  .superaction__order {
+    margin-top: 3px;
+    margin-bottom: 33px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .superaction-steps__box {
+    padding-left: 59px;
+  }
 }
