@@ -2308,7 +2308,7 @@ textarea {
 }
 
 @media (max-width: 1448px) {
-  .logo {
+  .header__logo {
     width: 112px;
     height: 44px;
   }
@@ -2514,7 +2514,7 @@ textarea {
     cursor: pointer;
   }
 
-  .logo {
+  .header__logo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3105,5 +3105,13 @@ textarea {
 
   .preorder__input {
     padding: 19px 14px 19px 45px;
+  }
+
+  /* Footer */
+
+  .footer__logo,
+  .footer__logo img {
+    width: 112px;
+    height: 44px;
   }
 }
