@@ -1031,15 +1031,15 @@ textarea {
   flex-shrink: 0;
 }
 
-.advantages__item--bg {
+/* .advantages__item--bg {
   position: relative;
   z-index: 1;
   border-radius: 20px;
   padding: 25px;
   overflow: hidden;
-}
+} */
 
-.advantages__item.advantages__item--bg {
+/* .advantages__item.advantages__item--bg {
   display: block;
 }
 
@@ -1052,8 +1052,8 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: 100%;
-}
-
+} */
+/* 
 .advantages__item.advantages__item--bg .advantages__item-title {
   color: #FFFFFF;
 }
@@ -1076,7 +1076,7 @@ textarea {
 
 .advantages__item-link:hover {
   border-color: #19DFC9;
-}
+} */
 
 /* Brands section */
 
@@ -3268,5 +3268,22 @@ textarea {
     width: 110%;
   }
 
-  /* .bottle-set__text {} */
+  /* Advantages section */
+
+  .advantages {
+    padding-top: 72px;
+  }
+
+  .advantages__list {
+    display: flex;
+    gap: 0;
+    overflow: visible;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .advantages__item {
+    min-width: 100%;
+    margin-right: 10px;
+  }
 }
