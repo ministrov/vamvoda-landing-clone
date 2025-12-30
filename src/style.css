@@ -3148,6 +3148,19 @@ textarea {
     top: -21px;
     height: 427px;
   }
+
+  .bottle-set__block-item {
+    gap: 8px;
+  }
+
+  .bottle-set__block-content-slogan {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .bottle-set__block-content-text {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3203,6 +3216,14 @@ textarea {
 
   .bottle-set__order-btn {
     display: block;
+  }
+
+  .bottle-set__block-center {
+    gap: 24px;
+  }
+
+  .bottle-set__block-item {
+    flex-direction: column;
   }
 }
 
