@@ -3115,3 +3115,38 @@ textarea {
     height: 44px;
   }
 }
+
+@media (max-width: 720px) {
+  .phone-call__tel {
+    gap: 0;
+    font-size: 0;
+  }
+
+  /* Hero section */
+
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 85px
+  }
+
+  .hero__wrapper {
+    flex-direction: column;
+    gap: 43px;
+  }
+
+  .promo__heading {
+    max-width: 100%;
+  }
+
+  .promo__text {
+    max-width: 100%;
+  }
+
+  .promo__label {
+    top: 45px;
+  }
+
+  .hero__timer {
+    margin-top: 0;
+  }
+}
