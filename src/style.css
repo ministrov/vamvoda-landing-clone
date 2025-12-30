@@ -3052,4 +3052,58 @@ textarea {
   .superaction-steps__box {
     padding-left: 59px;
   }
+
+  /* Preorder section */
+
+  .preorder {
+    padding-top: 46px;
+    padding-bottom: 42px;
+  }
+
+  .preorder__wrapper {
+    gap: 0;
+  }
+
+  .preorder__image {
+    object-position: 60% 0;
+  }
+
+  .preorder__title {
+    max-width: 286px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+  }
+
+  .preorder__text {
+    max-width: 286px;
+    font-size: 16px;
+  }
+
+  .preorder__right {
+    max-width: max-content;
+  }
+
+  .preorder__heading {
+    font-size: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .preorder__form {
+    gap: 15px;
+    max-width: 334px;
+    padding: 20px;
+    margin-top: 0;
+  }
+
+  .preorder__label-icon {
+    left: 15px;
+  }
+
+  .preorder__input {
+    padding: 19px 14px 19px 45px;
+  }
 }
