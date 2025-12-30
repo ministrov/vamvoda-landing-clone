@@ -1505,6 +1505,7 @@ textarea {
   top: -156px;
   left: 0;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -1570,6 +1571,12 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: right;
+}
+
+.gift-block__icon {
+  position: absolute;
+  top: 55px;
+  right: 107px;
 }
 
 .gift-block__gift-box {
@@ -2900,6 +2907,7 @@ textarea {
     top: -40px;
     left: 0;
     width: 100%;
+    height: 100%;
     display: inline-block;
     object-fit: cover;
   }
@@ -2925,5 +2933,30 @@ textarea {
 
   .gift__gift-limits {
     width: 100%;
+  }
+
+  .gift-block {
+    min-height: 260px;
+  }
+
+  .gift-block__icon {
+    right: 55px;
+  }
+
+  .gift-limits__bg-desktop {
+    display: none;
+  }
+
+  .gift-limits__bg-tablet {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
   }
 }
