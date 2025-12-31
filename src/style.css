@@ -3210,6 +3210,10 @@ textarea {
 
   /* Footer */
 
+  .footer {
+    padding-top: 20px;
+  }
+
   .footer__logo,
   .footer__logo img {
     width: 112px;
@@ -3477,6 +3481,11 @@ textarea {
 
   .preorder__form {
     max-width: 100%;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
