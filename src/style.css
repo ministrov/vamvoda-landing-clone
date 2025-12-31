@@ -3126,6 +3126,7 @@ textarea {
     width: 283px;
   }
 
+
   .superaction {
     padding: 41px 20px 21px;
     text-align: center;
@@ -3140,6 +3141,17 @@ textarea {
 
   .superaction-steps__box {
     padding-left: 59px;
+  }
+
+  .superaction-steps__number {
+    font-size: 57px;
+    left: -23px;
+  }
+
+  .superaction__sale {
+    max-width: 207px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Preorder section */
@@ -3396,6 +3408,24 @@ textarea {
     margin-left: 0;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .supersales__row-two {
+    flex-direction: column;
+  }
+
+  .supersales__superaction {
+    width: 100%;
+  }
+
+  .superaction {
+    width: 100%;
+    padding: 19px 20px 20px;
+    text-align: left;
+  }
+
+  .superaction__sale {
+    margin-left: 0;
   }
 }
 
