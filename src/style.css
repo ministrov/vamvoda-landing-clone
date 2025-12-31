@@ -3427,6 +3427,57 @@ textarea {
   .superaction__sale {
     margin-left: 0;
   }
+
+  .preorder {
+    padding-top: 84px;
+    padding-bottom: 54px;
+  }
+
+  .preorder__wrapper {
+    flex-direction: column;
+    gap: 101px;
+  }
+
+  .preorder__image {
+    object-position: 50% 0;
+  }
+
+  .preorder__image {
+    display: none;
+  }
+
+  .preorder__image.preorder__image--small {
+    display: inline;
+  }
+
+  .preorder__left {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .preorder__right {
+    max-width: 100%;
+  }
+
+  .preorder__timer.timer {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .preorder__title {
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .preorder__text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .preorder__form {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 720px) {
