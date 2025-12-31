@@ -1031,19 +1031,15 @@ textarea {
   flex-shrink: 0;
 }
 
-/* .advantages__item--bg {
+.advantages-order {
   position: relative;
   z-index: 1;
   border-radius: 20px;
   padding: 25px;
   overflow: hidden;
-} */
-
-/* .advantages__item.advantages__item--bg {
-  display: block;
 }
 
-.advantages__item--bg .advantages__item-image {
+.advantages-order__image {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -1052,19 +1048,30 @@ textarea {
   height: 100%;
   object-fit: cover;
   object-position: 100%;
-} */
-/* 
-.advantages__item.advantages__item--bg .advantages__item-title {
+}
+
+.advantages-order__action {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: -0.5px;
   color: #FFFFFF;
 }
 
-.advantages__item.advantages__item--bg .advantages__item-text {
+.advantages-order__slogan {
+  display: inline-block;
   max-width: 205px;
+  margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 162%;
+  letter-spacing: -0.28px;
   color: #B9C7DD;
 }
 
-.advantages__item-link {
+.advantages-order__link {
   display: block;
   width: max-content;
   font-size: 15px;
@@ -1074,9 +1081,9 @@ textarea {
   border-bottom: 1px solid rgba(25, 223, 201, 0.50);
 }
 
-.advantages__item-link:hover {
-  border-color: #19DFC9;
-} */
+.advantages-order.advantages-order--long {
+  display: none;
+}
 
 /* Brands section */
 
@@ -1996,7 +2003,6 @@ textarea {
   font-weight: 800;
   line-height: 107%;
   -webkit-text-stroke: 1px #FFFFFF;
-  /* text-stroke: 1px #FFFFFF; */
   opacity: 0.09;
   color: transparent;
 }
@@ -2730,6 +2736,11 @@ textarea {
     font-size: 14px;
   }
 
+  .advantages-order {
+    padding: 15px;
+    border-radius: 15px;
+  }
+
   /* Brands section */
 
   .brands {
@@ -2863,7 +2874,6 @@ textarea {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* width: 100vw; */
     margin-top: 20px;
     border-radius: 15px;
     padding: 32px 20px 31px;
@@ -3006,7 +3016,6 @@ textarea {
 
   .supersales__wrapper {
     flex-direction: column;
-    /* align-items: center; */
     gap: 20px;
   }
 
@@ -3224,6 +3233,14 @@ textarea {
 
   .bottle-set__block-item {
     flex-direction: column;
+  }
+
+  .advantages__order {
+    margin-top: 20px;
+  }
+
+  .advantages-order.advantages-order--long {
+    display: block;
   }
 }
 
