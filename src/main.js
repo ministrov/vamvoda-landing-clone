@@ -56,11 +56,11 @@ jQuery(document).ready(function ($) {
           spaceBetween: 14,
           loop: false,
         });
-        // mobilegift = new Swiper('.gift-wrapper', {
-        //   slidesPerView: 1,
-        //   spaceBetween: 10,
-        //   loop: true,
-        // });
+        mobilegift = new Swiper('.gift-wrapper', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true,
+        });
       }
     } else if (init) {
       mobileadvantages.destroy();
