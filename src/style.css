@@ -1290,7 +1290,6 @@ textarea {
 .levels {
   position: relative;
   z-index: 1;
-  /* overflow: hidden; */
   padding-top: 80px;
   padding-bottom: 214px;
   background: radial-gradient(91.18% 61.82% at 50.76% 102.63%, #F8FBFF 0%, #E7EDF3 100%);
@@ -1338,8 +1337,7 @@ textarea {
 }
 
 .levels__item {
-  display: flex;
-  flex-direction: column;
+  height: auto;
   padding: 24px;
   padding-top: 0;
   border-radius: 20px;
@@ -1392,9 +1390,8 @@ textarea {
 }
 
 .levels__image-box {
-  width: 70px;
-  height: 83px;
-  margin-top: 17px;
+  /* height: 83px; */
+  /* margin-top: 17px; */
   margin-bottom: 15px;
   background-color: purple;
 }
@@ -1420,22 +1417,19 @@ textarea {
   color: #5C5F64;
 }
 
-.levels__item.levels__item--second {
-  position: relative;
-  z-index: 1;
+.levels-order {
   display: flex;
   flex-direction: column;
+  gap: 22px;
   padding: 25px;
   padding-bottom: 20px;
   border-radius: 20px;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
-.levels__btn-item {
-  margin-top: 22px;
-}
-
-.levels__item-bg {
+.levels-order__image {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -1443,6 +1437,33 @@ textarea {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.levels-order__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-grow: 1;
+}
+
+.levels-order__action {
+  max-width: 165px;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: -0.5px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.levels-order__slogan {
+  display: block;
+  max-width: 113px;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  color: #FFFFFF;
 }
 
 .levels__action {
@@ -1455,17 +1476,7 @@ textarea {
   color: #FFFFFF;
 }
 
-.levels__item.levels__item--second .levels__text {
-  display: block;
-  max-width: 113px;
-  margin-top: 5px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 150%;
-  color: #FFFFFF;
-}
-
-.levels__btn {
+.levels-order__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1478,23 +1489,27 @@ textarea {
   box-shadow: 0 24px 29px 0 rgba(16, 65, 114, 0.26);
 }
 
-.levels__btn:hover {
+.levels-order__btn:hover {
   background-color: #0B54A0;
 }
 
-.levels__btn-text {
+.levels-order__btn-text {
   font-size: 16px;
   font-weight: 600;
   color: #0E655B;
   transition: .3s;
 }
 
-.levels__btn:hover .levels__btn-icon path {
+.levels-order__btn:hover .levels-order__btn-icon path {
   stroke: #ffffff;
 }
 
-.levels__btn:hover .levels__btn-text {
+.levels-order__btn:hover .levels-order__btn-text {
   color: #FFFFFF;
+}
+
+.levels-order.levels-order--long {
+  display: none;
 }
 
 /* Gift section */
@@ -2338,6 +2353,10 @@ textarea {
     padding: 15px;
     padding-top: 0;
   }
+
+  .levels-order {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 1310px) {
@@ -2860,7 +2879,7 @@ textarea {
 
   .levels__list {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     grid-column-gap: 14px;
     grid-row-gap: 36px;
     margin-top: 40px;
@@ -2870,13 +2889,26 @@ textarea {
     border-radius: 15px;
   }
 
-  .levels__item.levels__item--second {
-    flex-direction: row;
-    align-items: center;
+  .levels__item.levels-order {
+    display: none;
+  }
+
+  .levels-order.levels-order--long {
+    display: flex;
     justify-content: space-between;
+    flex-direction: row;
     margin-top: 20px;
     border-radius: 15px;
     padding: 32px 20px 31px;
+  }
+
+  .levels-order--long .levels-order__action {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  .levels-order--long .levels-order__slogan {
+    max-width: 100%;
   }
 
   .levels__num {
