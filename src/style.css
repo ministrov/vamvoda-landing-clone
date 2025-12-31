@@ -1439,6 +1439,11 @@ textarea {
   object-fit: cover;
 }
 
+.levels-order__image-tablet,
+.levels-order__image-mobile {
+  display: none;
+}
+
 .levels-order__text-wrapper {
   display: flex;
   flex-direction: column;
@@ -2911,6 +2916,22 @@ textarea {
     max-width: 100%;
   }
 
+  .levels-order__image-tablet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .levels-order__image,
+  .levels-order__image-mobile {
+    display: none;
+  }
+
   .levels__num {
     width: 34px;
     height: 31px;
@@ -3273,6 +3294,16 @@ textarea {
 
   .advantages-order.advantages-order--long {
     display: block;
+  }
+
+  .levels__slider {
+    padding-right: 38px;
+    overflow: visible;
+  }
+
+  .levels__list {
+    display: flex;
+    gap: 0;
   }
 }
 
