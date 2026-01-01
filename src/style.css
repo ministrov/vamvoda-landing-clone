@@ -2517,7 +2517,6 @@ textarea {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    /* padding: 50px 123px 45px 25px; */
   }
 
   .gift-limits__text br {
@@ -3372,6 +3371,18 @@ textarea {
 
   .advantages-order.advantages-order--long {
     display: block;
+  }
+
+  .brands-slider {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+  .brands__quality-list {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
 
   .levels__slider {
