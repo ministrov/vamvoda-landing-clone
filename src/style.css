@@ -334,7 +334,7 @@ textarea {
 .tag__text {
   font-size: 11px;
   font-weight: 800;
-  line-height: 15px;
+  line-height: 14px;
   letter-spacing: 0.33px;
   text-transform: uppercase;
 }
@@ -360,7 +360,7 @@ textarea {
 
 .promo__label {
   position: absolute;
-  top: 170px;
+  top: 172px;
   left: -6px;
   z-index: -1;
   transform: rotate(-4.867deg);
@@ -2624,13 +2624,17 @@ textarea {
   }
 
   .promo__label {
-    top: 88px;
+    top: 89px;
     max-height: 60px;
   }
 
   .label__icon {
+    display: none;
+  }
+
+  .label__icon-mobile {
+    display: inline-block;
     width: 191px;
-    height: auto;
   }
 
   .label__text {
@@ -2645,6 +2649,10 @@ textarea {
     margin-bottom: 0;
     font-size: 16px;
     letter-spacing: 0.1px;
+  }
+
+  .hero__timer {
+    margin-top: 26px;
   }
 
   .hero__features {
