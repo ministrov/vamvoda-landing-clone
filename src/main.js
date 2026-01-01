@@ -15,8 +15,8 @@ jQuery(document).ready(function ($) {
     loop: true,
     centerMode: true,
     navigation: {
-      nextEl: '.brands-slide__next',
-      prevEl: '.brands-slide__prev',
+      nextEl: '.navigation__button--next',
+      prevEl: '.navigation__button--prev',
     },
     pagination: {
       el: '.brands-slide__navigation',

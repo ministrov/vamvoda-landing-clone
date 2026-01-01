@@ -1107,11 +1107,11 @@ textarea {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  color: #818B9A;
   font-size: 16px;
   font-weight: 500;
+  text-align: center;
   line-height: 162%;
+  color: #818B9A;
 }
 
 .brands__slider {
@@ -1123,7 +1123,6 @@ textarea {
 }
 
 .brands-slider__slide {
-  /* min-width: 453.333px; */
   padding: 22px;
   padding-top: 0;
   background-color: #FFFFFF;
@@ -1145,16 +1144,16 @@ textarea {
 }
 
 .brands-slider__slide-top {
+  overflow: hidden;
   width: 135px;
   height: 135px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 3px solid #E7EDF3;
   margin-top: -24px;
-  transition: .3s;
   margin-left: auto;
   margin-right: auto;
   background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 3px solid #E7EDF3;
+  transition: .3s;
 }
 
 .brands-slider__slide:hover .brands-slider__slide-top {
@@ -1166,11 +1165,6 @@ textarea {
   max-height: 100%;
   width: auto;
   height: auto;
-}
-
-.brands-slide__next,
-.brands-slide__prev {
-  display: none;
 }
 
 .slide-info {
