@@ -2332,6 +2332,10 @@ textarea {
   color: #7D838C;
 }
 
+.footer__policy-list-item {
+  display: flex;
+}
+
 .footer__policy-list-link {
   font-size: 13px;
   font-weight: 500;
@@ -3501,9 +3505,25 @@ textarea {
     max-width: 100%;
   }
 
-  .footer__top {
+  .footer__bottom {
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer__phone-call .phone-call__btn {
+    display: block;
+    padding: 11px 15px;
+    font-size: 10px;
+  }
+
+  .footer .phone-call {
+    gap: 7px;
+  }
+
+  .phone-call--second .phone-call__tel {
+    font-size: 14px;
   }
 }
 
@@ -3565,5 +3585,13 @@ textarea {
   .advantages__item {
     min-width: 100%;
     margin-right: 10px;
+  }
+
+  /* Footer */
+
+  .footer__top {
+    flex-direction: column;
+    justify-content: unset;
+    gap: 10px;
   }
 }
