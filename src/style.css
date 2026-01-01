@@ -1120,12 +1120,10 @@ textarea {
 
 .brands-slider {
   overflow: visible;
-  display: flex;
-  gap: 20px;
 }
 
 .brands-slider__slide {
-  min-width: 453.333px;
+  /* min-width: 453.333px; */
   padding: 22px;
   padding-top: 0;
   background-color: #FFFFFF;

@@ -9,6 +9,35 @@ window.addEventListener('resize', () => {
 console.log(vh);
 
 jQuery(document).ready(function ($) {
+  var brandsSlider = new Swiper('.brands__slider', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    loop: true,
+    centerMode: true,
+    navigation: {
+      nextEl: '.brands-slide__next',
+      prevEl: '.brands-slide__prev',
+    },
+    pagination: {
+      el: '.brands-slide__navigation',
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 14,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 14,
+      },
+      1231: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+
   var reviewsSlider = new Swiper('.reviews-slider', {
     slidesPerView: 4,
     spaceBetween: 20,
