@@ -3655,4 +3655,46 @@ textarea {
     max-width: 100%;
   }
 
+  .bottle-set {
+    padding-top: 41px;
+  }
+
+  .bottle-set__btn {
+    margin-top: 0;
+  }
+
+  .levels {
+    padding-bottom: 38px;
+  }
+
+  .levels-order.levels-order--long {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 37px 20px 20px;
+    gap: 30px;
+  }
+
+  .levels-order__btn {
+    width: 100%;
+  }
+
+  .gift {
+    padding-top: 22.833vw;
+    padding-bottom: 23.222vw;
+  }
+
+  .gift__bg-tablet {
+    display: none;
+  }
+
+  .gift__bg-mobile {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+  }
 }
