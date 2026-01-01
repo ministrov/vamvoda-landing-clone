@@ -91,6 +91,23 @@ textarea {
   overflow: hidden;
 }
 
+.swiper-pagination-bullet {
+  margin: 0 !important;
+  width: 7px;
+  height: 7px;
+  border-radius: 900px;
+  background-color: #FFFFFF;
+  border: 2px solid #98A2A7;
+  opacity: 0.3;
+  transition: .3s;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-color: #0C5EAB;
+  opacity: 1;
+}
+
 /* Header */
 
 .header {
@@ -1883,11 +1900,18 @@ textarea {
 }
 
 .reviews-slider__navigation {
+  margin-top: 40px;
+}
+
+.navigation {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
-  margin-top: 40px;
+}
+
+.navigation {
+  display: none;
 }
 
 .navigation__button {
@@ -1918,23 +1942,6 @@ textarea {
   display: flex;
   align-items: center;
   gap: 7px;
-}
-
-.swiper-pagination-bullet {
-  margin: 0 !important;
-  width: 7px;
-  height: 7px;
-  border-radius: 900px;
-  background-color: #FFFFFF;
-  border: 2px solid #98A2A7;
-  opacity: 0.3;
-  transition: .3s;
-}
-
-.swiper-pagination-bullet-active {
-  width: 20px;
-  border-color: #0C5EAB;
-  opacity: 1;
 }
 
 /* Supersales section */
