@@ -108,6 +108,43 @@ textarea {
   opacity: 1;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.navigation__button {
+  position: static;
+  width: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  background-color: #E7EDF3;
+  border-radius: 15px;
+  opacity: 1;
+  transition: .3s;
+}
+
+.navigation__button:hover {
+  background-color: #0B54A0;
+}
+
+.navigation__button:hover svg path {
+  stroke: #ffffff;
+}
+
+.pagination {
+  position: static;
+  width: auto !important;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
 /* Header */
 
 .header {
@@ -867,10 +904,6 @@ textarea {
   border-radius: 900px;
 }
 
-/* .bottle-set__order-btn-tablet {
-  display: none;
-} */
-
 .bottle-set__btn:hover {
   background-color: #00a8eb;
 }
@@ -1292,6 +1325,14 @@ textarea {
   line-height: 162%;
   letter-spacing: -0.28px;
   color: #5C5F64;
+}
+
+.brands-slide__navigation {
+  margin-top: 40px;
+}
+
+.brands-slide__navigation {
+  display: none;
 }
 
 /* Levels section */
@@ -1903,47 +1944,6 @@ textarea {
   margin-top: 40px;
 }
 
-.navigation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-}
-
-.navigation {
-  display: none;
-}
-
-.navigation__button {
-  position: static;
-  width: 53px;
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  background-color: #E7EDF3;
-  border-radius: 15px;
-  opacity: 1;
-  transition: .3s;
-}
-
-.navigation__button:hover {
-  background-color: #0B54A0;
-}
-
-.navigation__button:hover svg path {
-  stroke: #ffffff;
-}
-
-.pagination {
-  position: static;
-  width: auto !important;
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-
 /* Supersales section */
 
 .supersales {
@@ -2291,10 +2291,6 @@ textarea {
 
 .preorder__link:hover {
   color: #ffffff;
-}
-
-.about-pagination {
-  display: none;
 }
 
 /* Footer */
@@ -2815,6 +2811,10 @@ textarea {
   .brands-slider__slide-top {
     width: 100px;
     height: 100px;
+  }
+
+  .brands-slide__navigation {
+    display: flex;
   }
 
   .slide-info__top-text,
@@ -3622,6 +3622,10 @@ textarea {
     padding-right: 14px;
   }
 
+  .swiper-navigation {
+    flex-wrap: wrap;
+  }
+
   .header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3772,5 +3776,18 @@ textarea {
   .gift-limits {
     padding: 0;
     padding-bottom: 9.722vw;
+  }
+
+  .reviews {
+    margin-top: 0;
+    padding-top: 45px;
+  }
+
+  .reviews__text {
+    margin-top: 11px;
+  }
+
+  .review {
+    min-height: 196px;
   }
 }
