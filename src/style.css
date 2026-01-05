@@ -704,14 +704,14 @@ textarea {
   position: absolute;
   top: 11px;
   left: 50%;
-  transform: translate(-50%, -99%);
-  /* width: 100%; */
-  width: 1920px;
-  height: 172px;
+  width: clamp(100vw, 1920px, 1920px);
+  aspect-ratio: 1920 / 173;
+  height: auto;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzIiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgNDJDODkzIC0xMjguNTUxIDcxNiA0MjEuOTQ5IDAgMFYxNzEuNDQ5SDE5MjBMMTkyMCA0MloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xOTIwIDEwMkM5OTQgLTEyOC41IDY1OS4zODQgMzU5LjIxNyAwIDQwLjk5OThWMTcxLjQ0OUgxOTIwTDE5MjAgMTAyWiIgZmlsbD0iI0U3RURGMyIvPgo8L3N2Zz4K);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
+  transform: translate(-50%, -99%);
 }
 
 .bottle-set::after {
@@ -719,14 +719,14 @@ textarea {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, 99%);
-  /* width: 100%; */
-  width: 1920px;
-  height: 172px;
+  width: clamp(100vw, 1920px, 1920px);
+  aspect-ratio: 1920 / 173;
+  height: auto;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzIiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgMTI5Ljg5OEM4OTMgMzAwLjQ0OSA3MTYgLTI1MC4wNTEgMCAxNzEuODk4VjAuNDQ5MjE5SDE5MjBMMTkyMCAxMjkuODk4WiIgZmlsbD0iI0Y0RjlGRiIvPgo8cGF0aCBkPSJNMTkyMCA2OS44OTg1Qzk5NCAzMDAuMzk4IDY1OS4zODQgLTE4Ny4zMTkgMCAxMzAuODk5VjAuNDQ5MjE5SDE5MjBMMTkyMCA2OS44OTg1WiIgZmlsbD0iI0U3RURGMyIvPgo8L3N2Zz4K);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
+  transform: translate(-50%, 99%);
 }
 
 .bottle-set__wrapper {
@@ -1360,17 +1360,11 @@ textarea {
   position: absolute;
   z-index: -2;
   top: 0;
-  /* left: 0; */
   left: 50%;
-  /* left: 0; */
-  /* width: 1920px;
-  height: 172px; */
   width: clamp(100vw, 1920px, 1920px);
   aspect-ratio: 1920 / 173;
-  /* Точная пропорция вашего SVG */
   height: auto;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzMiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgNDIuODk4NEM4OTMgLTEyNy42NTIgNzE2IDQyMi44NDggMCAwLjg5ODQzOFYxNzIuMzQ4SDE5MjBMMTkyMCA0Mi44OTg0WiIgZmlsbD0iI0Y0RjlGRiIvPgo8cGF0aCBkPSJNMTkyMCAxMDIuODk4Qzk5NCAtMTI3LjYwMiA2NTkuMzg0IDM2MC4xMTUgMCA0MS44OTgzVjE3Mi4zNDhIMTkyMEwxOTIwIDEwMi44OThaIiBmaWxsPSIjRTdFREYzIi8+Cjwvc3ZnPgo=);
-  /* background-size: contain; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -1448,7 +1442,6 @@ textarea {
 
 .levels__image-box {
   margin-bottom: 15px;
-  background-color: purple;
 }
 
 .levels__item:nth-last-of-type(2) .levels__image {
@@ -3427,7 +3420,6 @@ textarea {
 
   .gift__gift-row {
     display: block;
-    /* margin-top: 20px; */
   }
 
   .gift-row {
