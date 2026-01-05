@@ -1360,19 +1360,21 @@ textarea {
   position: absolute;
   z-index: -2;
   top: 0;
+  /* left: 0; */
   left: 50%;
   /* left: 0; */
-  width: 1920px;
-  /* width: clamp(100vw, 1920px, 1920px);
-  height: clamp(172px, 8.984vw, 172px); */
-  /* aspect-ratio: 1920 / 173; */
-  height: 172px;
+  /* width: 1920px;
+  height: 172px; */
+  width: clamp(100vw, 1920px, 1920px);
+  aspect-ratio: 1920 / 173;
+  /* Точная пропорция вашего SVG */
+  height: auto;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxNzMiIHZpZXdCb3g9IjAgMCAxOTIwIDE3MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5MjAgNDIuODk4NEM4OTMgLTEyNy42NTIgNzE2IDQyMi44NDggMCAwLjg5ODQzOFYxNzIuMzQ4SDE5MjBMMTkyMCA0Mi44OTg0WiIgZmlsbD0iI0Y0RjlGRiIvPgo8cGF0aCBkPSJNMTkyMCAxMDIuODk4Qzk5NCAtMTI3LjYwMiA2NTkuMzg0IDM2MC4xMTUgMCA0MS44OTgzVjE3Mi4zNDhIMTkyMEwxOTIwIDEwMi44OThaIiBmaWxsPSIjRTdFREYzIi8+Cjwvc3ZnPgo=);
-  background-size: contain;
+  /* background-size: contain; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
   transform: translate(-50%, -99%);
-  /* transform: translateX(50%) translateY(-99%); */
 }
 
 .levels__title {
