@@ -2959,6 +2959,8 @@ textarea {
   }
 
   .levels__image-box {
+    display: flex;
+    width: max-content;
     margin-top: 7px;
     margin-bottom: 10px;
   }
