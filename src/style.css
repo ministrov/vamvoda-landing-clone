@@ -2354,6 +2354,10 @@ textarea {
     font-size: 0;
     gap: 0;
   }
+
+  .footer__top .main-nav--second {
+    display: none;
+  }
 }
 
 @media (max-width: 1410px) {
@@ -2557,7 +2561,7 @@ textarea {
     transform: translate(-50%, -50%);
   }
 
-  .main-nav__list {
+  .header__main-nav-wrapper {
     display: none;
   }
 
