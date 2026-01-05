@@ -92,9 +92,9 @@ textarea {
 }
 
 .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
   margin: 0 !important;
-  width: 7px;
-  height: 7px;
   border-radius: 900px;
   background-color: #FFFFFF;
   border: 2px solid #98A2A7;
@@ -3387,6 +3387,10 @@ textarea {
     display: block;
   }
 
+  .brands {
+    padding-bottom: 70px;
+  }
+
   .brands-slider {
     width: 100%;
     margin-left: 0;
@@ -3717,6 +3721,12 @@ textarea {
     width: 100%;
   }
 
+  .brands-slide__pagination {
+    order: -1;
+    justify-content: center;
+    width: 100% !important;
+  }
+
   .gift {
     padding-top: 22.833vw;
     padding-bottom: 23.222vw;
@@ -3789,5 +3799,11 @@ textarea {
 
   .review {
     min-height: 196px;
+  }
+
+  .reviews__pagination {
+    order: -1;
+    justify-content: center;
+    width: 100% !important;
   }
 }
