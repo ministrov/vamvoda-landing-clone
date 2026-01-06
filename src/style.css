@@ -188,7 +188,10 @@ textarea {
 .main-nav__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 28px;
+  row-gap: 14px;
+  max-width: 750px;
 }
 
 .main-nav__item {
