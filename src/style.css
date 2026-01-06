@@ -191,7 +191,7 @@ textarea {
   flex-wrap: wrap;
   gap: 28px;
   row-gap: 14px;
-  max-width: 750px;
+  max-width: 814px;
 }
 
 .main-nav__item {
@@ -451,6 +451,7 @@ textarea {
 .features {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 22px;
 }
 
