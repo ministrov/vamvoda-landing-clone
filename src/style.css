@@ -1327,11 +1327,11 @@ textarea {
   color: #5C5F64;
 }
 
-.brands-slide__navigation {
+.brands-slider__navigation {
   margin-top: 40px;
 }
 
-.brands-slide__navigation {
+.brands-slider__navigation {
   display: none;
 }
 
@@ -2694,7 +2694,7 @@ textarea {
     width: 35px;
   }
 
-  .oreder__cart-icon {
+  .order__cart-icon {
     width: 20px;
   }
 
@@ -2817,7 +2817,7 @@ textarea {
     height: 100px;
   }
 
-  .brands-slide__navigation {
+  .brands-slider__navigation {
     display: flex;
   }
 
@@ -3724,7 +3724,7 @@ textarea {
     width: 100%;
   }
 
-  .brands-slide__pagination {
+  .brands-slider__pagination {
     order: -1;
     justify-content: center;
     width: 100% !important;
