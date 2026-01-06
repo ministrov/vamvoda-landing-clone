@@ -2566,7 +2566,26 @@ textarea {
   }
 
   .header__main-nav-wrapper {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100 * var(--vh));
+    /* background-color: rgba(9, 25, 53, 0.87); */
+    /* display: none; */
+  }
+
+  .header__inner {
+    overflow-y: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 324px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    transform: translateX(-100%);
+    transition: .3s;
   }
 
   .phone-call__tel {
