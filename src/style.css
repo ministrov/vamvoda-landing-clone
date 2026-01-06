@@ -2571,8 +2571,8 @@ textarea {
     left: 0;
     width: 100%;
     height: calc(100 * var(--vh));
-    /* background-color: rgba(9, 25, 53, 0.87); */
-    /* display: none; */
+    background-color: rgba(9, 25, 53, 0.87);
+    display: none;
   }
 
   .header__inner {

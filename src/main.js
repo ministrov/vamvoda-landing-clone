@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
       prevEl: '.navigation__button--prev',
     },
     pagination: {
-      el: '.brands-slide__pagination',
+      el: '.brands-slider__pagination',
       clickable: true,
     },
     breakpoints: {
