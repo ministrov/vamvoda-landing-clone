@@ -9,6 +9,14 @@ window.addEventListener('resize', () => {
 console.log(vh);
 
 jQuery(document).ready(function ($) {
+  $('.burger').on('click', function () {
+    $('.page__body').addClass('open');
+    console.log('clicked!!!!');
+  });
+
+  $('.header__close').on('click', function () {
+    console.log('button close is clicked!!!');
+  });
   var brandsSlider = new Swiper('.brands__slider', {
     slidesPerView: 3,
     spaceBetween: 20,
@@ -68,7 +76,8 @@ jQuery(document).ready(function ($) {
   });
 
   var init = false;
-  var mobileadvantages;
+  // var mobileadvantages;
+  var mobilegift;
   var mobilehow;
   function swiperOn() {
     if (window.innerWidth <= 767) {

@@ -20,6 +20,10 @@ body {
   line-height: 24px;
 }
 
+.body.open {
+  overflow: hidden;
+}
+
 h5,
 h4,
 h3,
