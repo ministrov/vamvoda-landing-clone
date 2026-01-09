@@ -76,19 +76,19 @@ jQuery(document).ready(function ($) {
   });
 
   var init = false;
-  // var mobileadvantages;
+  var mobileadvantages;
   var mobilegift;
   var mobilehow;
   function swiperOn() {
     if (window.innerWidth <= 767) {
       if (!init) {
         init = true;
-        // mobileadvantages = new Swiper('.advantages-slider', {
-        //   slidesPerView: 1,
-        //   spaceBetween: 10,
-        //   loop: true,
-        //   centerMode: true,
-        // });
+        mobileadvantages = new Swiper('.advantages__slider', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true,
+          centerMode: true,
+        });
         mobilehow = new Swiper('.levels__slider', {
           slidesPerView: 1,
           spaceBetween: 14,
