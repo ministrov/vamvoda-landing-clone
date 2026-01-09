@@ -11,12 +11,20 @@ console.log(vh);
 jQuery(document).ready(function ($) {
   $('.burger').on('click', function () {
     $('.page__body').addClass('open');
-    console.log('clicked!!!!');
+    $('.header__main-nav-wrapper').fadeIn();
+    setTimeout(function () {
+      $('.header__main-nav-wrapper').addClass('active');
+    }, 300);
   });
 
   $('.header__close').on('click', function () {
-    console.log('button close is clicked!!!');
+    $('.header__main-nav-wrapper').removeClass('active');
+    setTimeout(function () {
+      $('.header__main-nav-wrapper').fadeOut();
+      $('body').removeClass('open');
+    }, 300);
   });
+
   var brandsSlider = new Swiper('.brands__slider', {
     slidesPerView: 3,
     spaceBetween: 20,

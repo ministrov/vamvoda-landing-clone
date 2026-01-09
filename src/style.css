@@ -2592,6 +2592,29 @@ textarea {
     transition: .3s;
   }
 
+  .header__main-nav-wrapper.active .header__inner {
+    transform: translateX(0);
+  }
+
+  .header__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 47px;
+    height: 40px;
+    margin-left: 14px;
+    background-color: #E0E6EB;
+    border-radius: 900px;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  .header__phone-call.phone-call--mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
   .phone-call__tel {
     font-size: 15px;
     gap: 7px;
@@ -3699,6 +3722,10 @@ textarea {
     flex-direction: column;
     text-align: center;
     gap: 7px;
+  }
+
+  .hero__features {
+    margin-top: 15px;
   }
 
   .hero__kit-link {
