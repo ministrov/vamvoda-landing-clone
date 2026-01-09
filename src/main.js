@@ -25,6 +25,13 @@ jQuery(document).ready(function ($) {
     }, 300);
   });
 
+  $('.header__main-nav-wrapper').on('click', function (e) {
+    console.log('clicked!!!');
+    if (!$(e.target).closest('.header__inner').length) {
+      $('.header__close').trigger('click');
+    }
+  });
+
   var brandsSlider = new Swiper('.brands__slider', {
     slidesPerView: 3,
     spaceBetween: 20,
