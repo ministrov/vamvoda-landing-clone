@@ -421,9 +421,9 @@ textarea {
 
 .promo__label {
   position: absolute;
-  top: 172px;
-  left: -6px;
   z-index: -1;
+  bottom: -66px;
+  left: -6px;
   transform: rotate(-4.867deg);
 }
 
@@ -2724,8 +2724,7 @@ textarea {
   }
 
   .promo__label {
-    top: 89px;
-    max-height: 60px;
+    bottom: -37px;
   }
 
   .label__icon {
@@ -3676,10 +3675,6 @@ textarea {
 
   .promo__text {
     max-width: 100%;
-  }
-
-  .promo__label {
-    top: 45px;
   }
 
   .hero__timer {
