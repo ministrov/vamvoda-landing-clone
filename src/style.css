@@ -405,7 +405,12 @@ textarea {
   align-items: flex-start;
 }
 
+/* 
 .hero__promo {
+  
+} */
+
+.hero__heading-box {
   position: relative;
   z-index: 1;
 }
@@ -2724,7 +2729,7 @@ textarea {
   }
 
   .promo__label {
-    bottom: -37px;
+    bottom: -44px;
   }
 
   .label__icon {
@@ -3773,10 +3778,6 @@ textarea {
 
   .hero__kit-link {
     margin-top: 0;
-  }
-
-  .promo__label {
-    top: 89px;
   }
 
   .features__text {
